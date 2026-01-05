@@ -21,7 +21,6 @@ All actions are documented as internal IT notes rather than a tutorial.
 - Local user account creation and management
 - Role-based access control using local accounts
 - Enforcement of least privilege
-- NTFS permission configuration and validation via File Explorer
 - Permission testing across multiple user roles
 - Enabling and verifying security auditing
 - Clear, structured technical documentation
