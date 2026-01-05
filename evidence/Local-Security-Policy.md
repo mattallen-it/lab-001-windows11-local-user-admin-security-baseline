@@ -27,3 +27,12 @@ Apply and document local password and account lockout policies on a Windows 11 P
 - Verified settings in Local Security Policy (`secpol.msc`).
 - Screenshots captured for password and account lockout policies.
 
+## Evidence
+
+### Password Policy
+![Password Policy Configuration](evidence/password-policy.png)
+
+### Account Lockout Policy
+![Account Lockout Policy Configuration](evidence/account-lockout-policy.png)
+
+
