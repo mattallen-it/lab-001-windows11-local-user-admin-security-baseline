@@ -17,6 +17,16 @@ All actions are documented as internal IT notes rather than a tutorial.
   - Local Security Policy (`secpol.msc`)
   - Event Viewer
 
+ ## Repository Structure
+
+- README.md — Lab overview and scope
+- Lab-Objective.md — Purpose and framing of the lab
+- Account-Setup.md — Account creation and security configuration notes
+- Permission-Testing.md — Validation of access controls across user roles
+- Parental-Controls.md — Child account restrictions and testing
+- Lessons-Learned.md — Reflections and takeaways from the lab
+
+
 ## Skills Demonstrated
 - Local user account creation and management
 - Role-based access control using local accounts
