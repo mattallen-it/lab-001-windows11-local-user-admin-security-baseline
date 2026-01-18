@@ -37,6 +37,35 @@ All actions are documented as internal IT notes rather than a tutorial.
 - Enabling and verifying security auditing
 - Clear, structured technical documentation
 
+## Baseline Reference (CTT Standard)
+
+The following screenshots document the CTT Standard configuration used as the
+baseline for this lab.
+
+This baseline:
+- Disables consumer features and telemetry
+- Preserves Windows Update, Microsoft Defender, logging, and IPv6
+- Avoids aggressive service hardening or debloating
+- Is safe for certification labs and GovTech environments
+
+![CTT Standard Baseline](screenshots/ctt-standard-baseline.png)
+![CTT Tweaks Applied](screenshots/ctt-tweaks-standard.png)
+
+## Validation and Final State
+
+After applying the CTT Standard baseline, the system was validated to confirm
+enterprise and lab compatibility.
+
+Validation performed:
+- Windows Update completed successfully post-hardening
+- System rebooted without errors
+- Microsoft Defender remained enabled and operational
+- Core Windows services and logging preserved
+- No aggressive service modifications applied
+
+![Windows Update Complete](screenshots/windows-update-complete.png)
+
+
 ## Security Concepts Applied
 - Least Privilege
 - Account Separation
