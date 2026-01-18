@@ -1,5 +1,8 @@
 # lab-001-windows11-local-user-admin-security-baseline
 
+This lab establishes a secure, predictable Windows 11 baseline intended to
+mirror entry-level government and contractor workstation configurations.
+
 ## What This Lab Is
 A practical Windows 11 Pro lab that simulates real Tier 1 IT support and entry-level security tasks.  
 The lab focuses on configuring local user accounts, enforcing least privilege, and basic auditing.  
@@ -16,6 +19,10 @@ All actions are documented as internal IT notes rather than a tutorial.
   - Local Users and Groups
   - Local Security Policy (`secpol.msc`)
   - Event Viewer
+  - Chris Titus Tech Utility (CTT)  
+  Used to apply a controlled, Standard Windows configuration baseline.
+  Aggressive debloating and service hardening were intentionally avoided
+  to preserve lab stability, logging, and security controls.
 
 ## Repository Structure
 
@@ -43,10 +50,10 @@ The following screenshots document the CTT Standard configuration used as the
 baseline for this lab.
 
 This baseline:
-- Disables consumer features and telemetry
+- Reduces consumer features and telemetry
 - Preserves Windows Update, Microsoft Defender, logging, and IPv6
 - Avoids aggressive service hardening or debloating
-- Is safe for certification labs and GovTech environments
+- Maintains compatibility with certification labs and GovTech environments
 
 ![CTT Standard Baseline](screenshots/ctt-standard-baseline.png)
 ![CTT Tweaks Applied](screenshots/ctt-tweaks-standard.png)
@@ -73,4 +80,7 @@ Validation performed:
 - Basic Incident Response Readiness
 
 This lab intentionally focuses on local account administration and security controls and does not include Active Directory, Group Policy, or enterprise tooling.
+
+Note: This lab intentionally excludes Active Directory, Group Policy, and Entra ID to maintain focus on local endpoint security fundamentals.
+
 
